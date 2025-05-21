@@ -95,6 +95,7 @@ def update_clock():
 
 # Initialize the main window
 root = tk.Tk()
+root.iconbitmap('clock.ico')
 root.title("Stock Market Countdown")
 root.geometry("600x300")  # Set window size
 
